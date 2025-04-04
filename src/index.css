@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root,body {
+
+  background-color: #4c6c06; /* Green felt color */
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+}
+
+#root, body {
+  margin: 0 0;
+  padding: 0;
+}
+body {
+  padding: 1rem;
+}
+
+body:after {
+  content: "";
+  display: block;
+  clear: both;
+  border: 0.3rem solid #eee;
+  border-radius: 15px;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  width:calc(100% - 0.5rem);
+  height: calc(100% - 0.5rem);
+  position:absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
